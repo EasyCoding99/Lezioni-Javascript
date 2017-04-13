@@ -1,0 +1,21 @@
+//LEZIONE 1 DI JAVASCRIPT - LE VARIABILI
+
+
+var nome = "Filippo";  //Dichiarazione e inizializzazione di una variabile
+
+var nome2;             //Dichiarazione e
+nome2 = "Marco";       //inizializzazione separate
+
+var numero = 3;       //Una variabile puo' contenere anche numeri
+var numero2 = "3";    //questa variabile tratta il "3" come una stringa e non some un numero
+
+var somma;            //E' possibile fare operazioni aritmetiche
+var a = 2;
+somma = a + numero;
+
+
+console.log();         //E' una funzione nativa di Javascript che permette alla console si stampare un valore dato in input
+console.log("Ciao");   //return----> Ciao
+console.log(numero);   //return----> 3
+console.log(a+numero); //return----> 5
+console.log(somma);    //return----> 5
