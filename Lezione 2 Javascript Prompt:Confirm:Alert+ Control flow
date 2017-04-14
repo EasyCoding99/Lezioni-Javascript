@@ -1,0 +1,31 @@
+//JAVASCRIPT PROMPT/CONFIRM/ALERT + CONTROL FLOW (Lezione 2)
+
+
+//Javascript fornisce funzioni native come :
+prompt();    //Genera un box che richiede un input di tipo stringa
+alert();     //Genera un box con messaggio di avviso
+confirm();   //Genera un box che richiede un input di tipo booleano (Vero o falso)
+
+
+
+prompt("Come ti chiami?");
+
+var messaggio = prompt("Come ti chiami?");   //Qui cio' che scriviamo verrà memorizzato all'interno della variabile.
+console.log(messaggio);     //Return ------> Restituisce cio' che abbiamo scritto all'interno del prompt
+
+confirm("Conferma");
+var verofalso = confirm("Conferma"); //Memorizza TRUE o FALSE all'interno della variabile che sarà possibile richiamare
+
+alert("Hai vinto un iphone 7 , il tuo pc è infetto scarica il nostro antivirus"); //Genera un semplice avviso
+
+
+var numero1 = 3;                                        //Il risultato di tutto questo
+var numero2 = prompt("Dammi un numero..");              //è la concatenazione dei due valori poiche'
+var somma  = numero1+numero2;                           //l'input dato è una stringa e non potra' essere sommato
+console.log(somma);
+
+
+var numero3 = 3;                                        //Il risultato di tutto questo
+var numero4 = prompt("Dammi un numero..");              //è una somma poiche' abbaimo forzato la conversione
+var somma2  = numero3+numero4;                          //del nostro valore stringa in numero.
+console.log(somma);                                     //Questa operazione di conversione è fondamentale per il control flow
