@@ -1,0 +1,16 @@
+
+do{
+  var nome = prompt("Dimmi chi sei");
+
+}while(!nome);
+
+alert("Ciao "+ nome);
+
+//----------------------------------------
+//elviamo 3 a 10      3*3*3*3*...
+var risultato = 1;
+for(var contatore = 0; contatore<10; contatore=contatore+1){
+
+  risultato = risultato*2;
+};
+console.log(risultato);

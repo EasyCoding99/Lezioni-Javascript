@@ -1,0 +1,32 @@
+
+
+var n  = prompt("Dammi un numero");
+var n2 = prompt("Dammi un altro numero..");
+
+if (n<n2) {
+
+alert("Il numero "+n+" è più piccolo del numero "+n2);
+
+}else if (n>n2){
+
+alert("Il numero "+n2+" è più piccolo del numero "+n);
+
+} else if (n==n2){
+  console.log("I due numeri sono uguali");
+}
+
+//---------------------------------------------
+
+console.log(2);      //Per stampare sulla console tutti i numeri pari fino a 100
+console.log(4);      //potremmo ripetere la stessa operazione manualmente tantissime volte
+console.log(6);
+//...
+
+
+var i = 2;            //Con il ciclo while invece ci affidiamo alla velocità della macchina per eseguire la stessa operazione
+while(i<=100){        // piu' volte.
+
+  console.log(i);
+
+  i= i+2;
+}
